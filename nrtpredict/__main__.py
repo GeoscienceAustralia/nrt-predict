@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
-import nrtpredict
+from .cli import *
 
 if __name__ == "__main__":
-    nrtpredict.cli.cli_entry()
-
+    cli.cli_entry()
