@@ -21,10 +21,6 @@ jobs:
           sudo apt-get update && sudo apt-get install -f -y libudunits2-dev pip libgdal-dev gdal-bin
           pip install .[test]
 
-      - name: Tests
-        run: |
-          make test-docker
-
       - name: Build package
         run: |
           python setup.py sdist bdist_wheel
