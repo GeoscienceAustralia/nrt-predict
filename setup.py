@@ -16,7 +16,7 @@ README = (parent / "README.md").read_text()
 
 setup(
     name="nrt-predict",
-    version="0.1",
+    version="0.1.1",
     description="Predict on Near-Real-Time Satellite Observations",
     long_description=README,
     long_description_content_type="text/markdown",
