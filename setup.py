@@ -37,6 +37,7 @@ setup(
     ],
     packages=['nrtmodels'],
     package_dir={'nrtmodels': 'nrtmodels'},
+    include_package_data=True,
     package_data={
         "nrtmodels": ["*.pkl"]
     },
